@@ -13,7 +13,8 @@
         <div class="footer-column footer-logo-column">
             <div class="footer-logo">
                 <img src="/images/logo.png" alt="CCC-E Logo">
-                <p>Consortium For Climate Change Ethiopia</p>
+                <p>Consortium For Climate Change Ethiopia</p> 
+                <!--  ethiopia in one line  -->
             </div>
              <!-- Updated Social Media Links -->
       <div class="social-icons">

@@ -23,13 +23,19 @@ Route::get('/about/what-we-do', [AboutController::class, 'whatWeDo'])->name('abo
 // Route::get('/about/our-members', [AboutController::class, 'ourMembers'])->name('about.members'); // Commented out for now
 
 // News & Events
-// Route::get('/news-events', fn() => view('news-events.index'));
-// Route::get('/news', fn() => view('news-events.news'));
-// Route::get('/events', fn() => view('news-events.events'));
-Route::get('/news-events', [NewsController::class, 'index'])->name('news-events.index');
+Route::get('/news-and-events', [NewsController::class, 'index'])->name('news-events.index');
+
+// Main news listing page
 Route::get('/news', [NewsController::class, 'index'])->name('news.index');
+
+// Main events listing page
+Route::get('/events', [NewsController::class, 'index'])->name('events.index');
+
+// A single news post (This route was commented out)
 Route::get('/news/{id}', [NewsController::class, 'show'])->name('news.show');
-Route::get('/events', fn() => view('news-events.events'))->name('events.index');
+// Route::get('/', function () {
+//     return view('coming-soon');
+// });
 
 
 // Opportunities

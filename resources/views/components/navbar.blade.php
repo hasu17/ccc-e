@@ -34,11 +34,11 @@
                 </ul>
         </li>
         <li class="dropdown">
-<a href="{{ route('news.index') }}">News & Events &#9662; </a>
+<a href="{{ route('news-events.index') }}">News & Events &#9662; </a>
 
             <ul class="dropdown-menu">
-              <li><a href="{{ route('news-events.index') }}">News</a></li>
-              <li><a href="{{ route('news-events.index') }}">Events</a></li>
+<li><a href="{{ route('news.index') }}">News</a></li>
+<li><a href="{{ route('events.index') }}">Events</a></li>
             </ul>
         </li>
 

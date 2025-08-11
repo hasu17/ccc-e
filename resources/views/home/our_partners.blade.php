@@ -13,16 +13,27 @@
   <div class="partner-track">
     <img src="{{ asset('images/partners/logo1.png') }}" alt="Partner 1" class="partner-logo">
     <img src="{{ asset('images/partners/logo2.png') }}" alt="Partner 2" class="partner-logo">
-    <img src="{{ asset('images/partners/logo4.png') }}" alt="Partner 4" class="partner-logo">
-    <img src="{{ asset('images/partners/logo5.png') }}" alt="Partner 5" class="partner-logo">
-        <img src="{{ asset('images/partners/logo6.png') }}" alt="Partner 6" class="partner-logo">
-    <!-- <img src="{{ asset('images/partners/logo5.png') }}" alt="Partner 5" class="partner-logo"> -->
-     <!-- Repeat to create an infinite loop -->
-       <img src="{{ asset('images/partners/logo1.png') }}" alt="Partner 1" class="partner-logo">
-    <img src="{{ asset('images/partners/logo2.png') }}" alt="Partner 2" class="partner-logo">
+    <img src="{{ asset('images/partners/logo3.png') }}" alt="Partner 3" class="partner-logo">
     <img src="{{ asset('images/partners/logo4.png') }}" alt="Partner 4" class="partner-logo">
     <img src="{{ asset('images/partners/logo5.png') }}" alt="Partner 5" class="partner-logo">
     <img src="{{ asset('images/partners/logo6.png') }}" alt="Partner 6" class="partner-logo">
+    <img src="{{ asset('images/partners/logo7.png') }}" alt="Partner 7" class="partner-logo">
+     <!-- Repeat to create an infinite loop -->
+    <img src="{{ asset('images/partners/logo1.png') }}" alt="Partner 1" class="partner-logo">
+    <img src="{{ asset('images/partners/logo2.png') }}" alt="Partner 2" class="partner-logo">
+    <img src="{{ asset('images/partners/logo3.png') }}" alt="Partner 3" class="partner-logo">
+    <img src="{{ asset('images/partners/logo4.png') }}" alt="Partner 4" class="partner-logo">
+    <img src="{{ asset('images/partners/logo5.png') }}" alt="Partner 5" class="partner-logo">
+    <img src="{{ asset('images/partners/logo6.png') }}" alt="Partner 6" class="partner-logo">
+    <img src="{{ asset('images/partners/logo7.png') }}" alt="Partner 7" class="partner-logo">
+     <!-- Repeat to create an infinite loop -->
+    <img src="{{ asset('images/partners/logo1.png') }}" alt="Partner 1" class="partner-logo">
+    <img src="{{ asset('images/partners/logo2.png') }}" alt="Partner 2" class="partner-logo">
+    <img src="{{ asset('images/partners/logo3.png') }}" alt="Partner 3" class="partner-logo">
+    <img src="{{ asset('images/partners/logo4.png') }}" alt="Partner 4" class="partner-logo">
+    <img src="{{ asset('images/partners/logo5.png') }}" alt="Partner 5" class="partner-logo">
+    <img src="{{ asset('images/partners/logo6.png') }}" alt="Partner 6" class="partner-logo">
+    <img src="{{ asset('images/partners/logo7.png') }}" alt="Partner 7" class="partner-logo">
   </div>
 </section>
 

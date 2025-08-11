@@ -1,4 +1,4 @@
-<section class="announcements">
+<!-- <section class="announcements">
     <h2>Announcements</h2>
     <div class="announcement-content">
         <div class="announcement-image">
@@ -31,4 +31,4 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->

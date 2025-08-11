@@ -14,11 +14,11 @@
 <section class="status-section"> <!-- Renamed from status-bar for clarity -->
     <div class="status-container">
         <div class="status-item">
-            <h3 class="counter" data-target="10000">0</h3>
+            <h3 class="counter" data-target="+10000">0</h3>
             <p>Tree plant</p>
         </div>
         <div class="status-item">
-            <h3 class="counter" data-target="5000">0</h3>
+            <h3 class="counter" data-target="+5000">0</h3>
             <p>Beneficiaries</p>
         </div>
         <div class="status-item">
@@ -26,11 +26,11 @@
             <p>Projects</p>
         </div>
         <div class="status-item">
-            <h3 class="counter" data-target="100">0</h3>
+            <h3 class="counter" data-target="15">0</h3>
             <p>Regions</p>
         </div>
         <div class="status-item">
-            <h3 class="counter" data-target="300">0</h3>
+            <h3 class="counter" data-target="+41">0</h3>
             <p>Members</p>
         </div>
         <div class="status-item">

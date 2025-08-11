@@ -7,7 +7,7 @@
     @include('home.our_partners')
     @include('home.recent-news')
     @include('home.status')
-    @include('home.announcements')
+    <!-- @include('home.announcements') -->
     @include('home.contact-us') <!-- just a section -->
 @endsection
 @section('scripts')

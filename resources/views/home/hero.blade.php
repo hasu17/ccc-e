@@ -16,8 +16,8 @@
         <!-- HERO TEXT OVERLAY -->
         <div class="overlay"></div>
         <div class="hero-text">
-            <h1>Stand Together for Environment</h1>
-            <p>Preserve Green Legacy</p>
+            <h1>Stand Together for Environmental</h1>
+            <p>and Climate Justice</p>
         </div>
     </div>
 

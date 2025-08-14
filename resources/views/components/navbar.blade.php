@@ -28,7 +28,6 @@
                     <li><a href="{{ route('about.about_us') }}">About Us</a></li>
                      <li><a href="{{ route('about.what-we-do') }}">What We Do</a></li>
 
-                   <li><a href="#">Our Mission & Vision </a></li>
                    <li><a href="#">Our Team</a></li>
                     <li><a href="#">Our Members</a></li>
                 </ul>

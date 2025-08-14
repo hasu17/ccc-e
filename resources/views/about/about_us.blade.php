@@ -19,12 +19,12 @@
             <h1 class="text-5xl font-bold mb-4">About Us</h1>
         </div>
         <!-- Breadcrumbs -->
-        <div class="absolute bottom-0 left-0 w-full bg-gray-800 bg-opacity-70 py-3 px-4">
-            <div class="container mx-auto text-sm text-gray-200">
-                <a href="{{ route('home') }}" class="hover:underline">Home</a> &gt;
-                <span class="font-semibold">About</span>
-            </div>
-        </div>
+       
+<div class="breadcrumbs">
+    <a href="{{ route('home') }}" class="hover:underline">Home</a>
+    <!-- <span class="font-semibold">About</span> -->
+</div>
+
     </section>
 
     {{-- Our History Section --}}
@@ -43,23 +43,45 @@
         </div>
     </section>
 
-    {{-- Vision and Mission Section --}}
-    <section class="vision-mission-section py-12 px-4 bg-gray-100">
-        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="bg-white p-8 rounded-lg shadow-md">
-                <h3 class="text-2xl font-bold text-green-700 mb-4 text-center">VISION</h3>
-                <p class="text-gray-700 leading-relaxed text-center">
-                    A sustainable and climate-resilient Ethiopia, where civil society organizations work collaboratively to promote environmental and ensure equitable resource management.
-                </p>
+   
+    <!-- Vision, Mission & Core Values Section -->
+<!-- Vision, Mission & Core Values Section -->
+<section class="vision-mission-section">
+    <div class="container top-row">
+        <div class="box">
+            <div class="icon-placeholder">
+                <img src="{{ asset('images/icons/vision-icon.png') }}" alt="Vision Icon">
             </div>
-            <div class="bg-white p-8 rounded-lg shadow-md">
-                <h3 class="text-2xl font-bold text-green-700 mb-4 text-center">MISSION</h3>
-                <p class="text-gray-700 leading-relaxed text-center">
-                    To strengthen the capacity of member organizations and foster collaboration, advocacy, and action to combat climate change, promote sustainable natural resource management, and build a resilient future for Ethiopia.
-                </p>
-            </div>
+            <h3>VISION</h3>
+            <p>
+                A sustainable and climate-resilient Ethiopia, where civil society organizations work collaboratively to promote environmental and ensure equitable resource management.
+            </p>
         </div>
-    </section>
+        <div class="box">
+            <div class="icon-placeholder">
+                <img src="{{ asset('images/icons/mission-icon.png') }}" alt="Mission Icon">
+            </div>
+            <h3>MISSION</h3>
+            <p>
+                To strengthen the capacity of member organizations and foster collaboration, advocacy, and action to combat climate change, promote sustainable natural resource management, and build a resilient future for Ethiopia.
+            </p>
+        </div>
+    </div>
+
+    <!-- Core Values Box (centered below) -->
+    <div class="container bottom-row">
+        <div class="box core-box">
+            <div class="icon-placeholder">
+                <img src="{{ asset('images/icons/core-values-icon.png') }}" alt="Core Values Icon">
+            </div>
+            <h3>CORE VALUES</h3>
+            <p>
+                Commitment to integrity, inclusivity, transparency, and collaboration in all climate change initiatives.
+            </p>
+        </div>
+    </div>
+</section>
+
 
     {{-- Ethiopia Map Section (Placeholder) --}}
     <section class="map-section py-12 px-4 bg-white">

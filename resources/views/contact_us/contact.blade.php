@@ -18,24 +18,24 @@
 <section class="contact-info-cards">
     <div class="card">
         <div class="card-icon">
-            <img src="{{ asset('images/icons/location.svg') }}" alt="Location Icon">
+            <img src="{{ asset('images/icons/Location icon.jpg') }}" alt="Location Icon">
         </div>
         <h3>Our Office Location</h3>
-        <p>Luwum Street, Opposite Grand Corner,<br>Kampala, Uganda</p>
+        <p> Yeka, Woreda 10, House No. 150/9,<br>Addis Ababa, Ethiopia</p>
     </div>
     <div class="card">
         <div class="card-icon">
-            <img src="{{ asset('images/icons/mail.svg') }}" alt="Email Icon">
+            <img src="{{ asset('images/icons/mail.jpg') }}" alt="Email Icon">
         </div>
         <h3>Email Us</h3>
-        <p>You can send us email at<br>info@orgname.com</p>
+        <p>You can send us email at<br>ccceethiopia2@gmail.com</p>
     </div>
     <div class="card">
         <div class="card-icon">
-            <img src="{{ asset('images/icons/phone.svg') }}" alt="Phone Icon">
+            <img src="{{ asset('images/icons/phone icon.jpg') }}" alt="Phone Icon">
         </div>
         <h3>Call Us</h3>
-        <p>You can also call us at<br>+256 776 250 647</p>
+        <p>You can also call us at<br>+(251) 115 52 28 88</p>
     </div>
 </section>
 

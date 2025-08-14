@@ -58,4 +58,33 @@ class NewsController extends Controller
 
         return view('news.show', compact('post', 'recentPosts'));
     }
+    public function create()
+{
+    return view('news.create'); // We'll make this form next
+}
+
+public function store(Request $request)
+{
+    $request->validate([
+        'title' => 'required|string|max:255',
+        'excerpt' => 'nullable|string',
+        'body' => 'nullable|string',
+        'image' => 'nullable|image|mimes:jpg,jpeg,png|max:2048',
+    ]);
+
+    $news = new News();
+    $news->title = $request->title;
+    $news->excerpt = $request->excerpt;
+    $news->body = $request->body;
+
+    if ($request->hasFile('image')) {
+        $path = $request->file('image')->store('news', 'public');
+        $news->image = $path;
+    }
+
+    $news->save();
+
+    return redirect()->route('news.index')->with('success', 'News created successfully!');
+}
+
 }

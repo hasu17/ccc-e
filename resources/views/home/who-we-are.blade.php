@@ -15,12 +15,12 @@
                 <img src="{{ asset('images/logo.png') }}" alt="CCC-E Logo">
             </div>
             <div class="who-we-are-text-column"> <p>
-                    The Consortium for Climate Change Ethiopia (CCC-E) is an independent, non-political, and not-for-profit non-governmental organization established in 2014. Registered in Ethiopia by the Authority for Civil Societies Organizations (ACSO) under proclamation No: 1113/2019, our registration number is 3355.
+                  The Consortium for Climate Change- Ethiopia (CCC-E) is an independent, non-political, and not-for-profit non-governmental organization established in 2014 and duly  registered in Ethiopia by the Authority for Civil Societies Organizations (ACSO) as a local organization under CSOs proclamation No: 1113/2019, bearing registration number is 3355. 
                 <p>
-                   Our aim is to see climate-resilient, sustainable development that meets the needs of Ethiopia's most vulnerable communities. To achieve this, our mission is to promote the climate change agenda through advocacy, networking, research, and capacity building
+                  Our vision is to see climate-resilient, sustainable development that meets the needs of Ethiopia's most vulnerable communities while , our mission is to promote the climate change agenda through advocacy, networking, research, and capacity building. 
                 </p>
                 <p>
-                   We seek to influence public behavior and policies by fostering a collaborative platform that mobilizes civil society organizations and key stakeholders in the effective fight against climate change.
+                  We seek to influence public behaviour and policies by fostering a collaborative platform that mobilizes civil society organizations and key stakeholders in the effective fight against climate change. 
                 </p> 
             </div>
         </div>

@@ -19,16 +19,16 @@
              <!-- Updated Social Media Links -->
       <div class="social-icons">
         <a href="https://www.instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
-          <img src="/images/icons/instagram.svg" alt="Instagram">
+          <img src="/images/icons/instagram.png" alt="Instagram">
         </a>
         <a href="https://www.twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
-          <img src="/images/icons/twitter.svg" alt="Twitter">
+          <img src="/images/icons/twitter2.png" alt="Twitter">
         </a>
         <a href="https://www.facebook.com/yourusername" target="_blank" rel="noopener noreferrer">
-          <img src="/images/icons/facebook.svg" alt="Facebook">
+          <img src="/images/icons/facebook.png" alt="Facebook">
         </a>
         <a href="https://www.linkedin.com/company/consortium-for-climate-change-ethiopia-ccce/" target="_blank" rel="noopener noreferrer">
-          <img src="/images/icons/linkedin.svg" alt="LinkedIn">
+          <img src="/images/icons/linkedin.png" alt="LinkedIn">
         </a>
       </div>
     </div>
@@ -74,7 +74,7 @@
         </div>
     </div>
     <div class="footer-bottom">
-        <p>@Copyright CCC-E 2025. All Rights Reserved</p>
+        <p>© Copyright CCC-E 2025. All Rights Reserved</p>
     </div>
 </footer>
 </body>
